@@ -44,7 +44,7 @@
 <br>
 <h2>Dizideki 18 Sayısının Case Durumu</h2>
 <br>
-<p>[ 2,6,16<b>18</b>,22,27 ]<br>
+<p>[ 2,6,16,<b>18</b>,22,27 ]<br>
 Bu dizideki 18 sayısı <b>average case</b> kapsamına girer.<br>
 </p>
 <br>
