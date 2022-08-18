@@ -7,6 +7,9 @@ as parameters and no array will have less than 2 elements. */
 
 package CoderbyteExamsFromKodluyoruz.StajProgrami.Week2;
 
+import java.util.*; 
+import java.io.*;
+
 public class ConsecutiveApp {
     public static int Consecutive(int[] arr) {
         // code goes here  
@@ -38,6 +41,7 @@ public class ConsecutiveApp {
         // keep this function call here     
         Scanner s = new Scanner(System.in);
         System.out.print(Consecutive(s.nextLine())); 
-    
+
+        s.close();
       }
 }

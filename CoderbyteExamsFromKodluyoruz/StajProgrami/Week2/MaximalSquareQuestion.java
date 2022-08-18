@@ -12,7 +12,9 @@ of the largest submatrix that contains only 1's. For example: if strArr is ["101
 
 For the input above, you can see the bolded 1's create the largest square submatrix of size 
 2x2, so your program should return the area which is 4. You can assume the input will not be empty.
- */
+*/
+
+package CoderbyteExamsFromKodluyoruz.StajProgrami.Week2;
 
 import java.util.*; 
 import java.io.*;
@@ -57,6 +59,8 @@ class MaximalSquareQuestion {
         // keep this function call here     
         Scanner s = new Scanner(System.in);
         System.out.print(MaximalSquare(s.nextLine())); 
+
+        s.close();
       }
 
 }
