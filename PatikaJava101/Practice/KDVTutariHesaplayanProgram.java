@@ -10,7 +10,7 @@ public class KDVTutariHesaplayanProgram {
     System.out.println(“Ücret Tutarını Giriniz: ”);
     kdvsiztutar = girdi.nextDouble();
     //hesaplama
-    double kdv = 18/100;
+    double kdv = (kdvsizfiyat <= 1000)? 0.18 : 0.08;
     double kdvtutari = kdvsizfiyat*kdv;
     double kdvlifiyat = kdvsizfiyat*(1+kdv);
     //yazdırma
