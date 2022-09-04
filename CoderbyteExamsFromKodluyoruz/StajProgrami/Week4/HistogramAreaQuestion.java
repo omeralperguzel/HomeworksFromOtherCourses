@@ -54,6 +54,7 @@ public class HistogramAreaQuestion {
         // keep this function call here     
         Scanner s = new Scanner(System.in);
         System.out.print(HistogramArea(s.nextLine())); 
+        s.close();
       }
     
 }

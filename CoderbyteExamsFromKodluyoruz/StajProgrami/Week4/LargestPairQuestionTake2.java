@@ -1,7 +1,7 @@
 package CoderbyteExamsFromKodluyoruz.StajProgrami.Week4;
 
 import java.util.*; 
-import java.io.*;
+//import java.io.*;
 
 //https://stackoverflow.com/questions/71076891/find-the-largest-pair-in-an-integer
 
@@ -22,7 +22,8 @@ public class LargestPairQuestionTake2 {
       public static void main (String[] args) {  
         // keep this function call here     
         Scanner s = new Scanner(System.in);
-        System.out.print(LargestPair(s.nextLine())); 
+        System.out.print(LargestPair(s.nextInt())); 
+        s.close();
       }
     
 }

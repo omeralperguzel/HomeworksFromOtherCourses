@@ -1,7 +1,7 @@
 package CoderbyteExamsFromKodluyoruz.StajProgrami.Week4;
 
 import java.util.*; 
-import java.io.*;
+//import java.io.*;
 
 public class LargestPairQuestionTake1 {
 
@@ -43,7 +43,8 @@ public class LargestPairQuestionTake1 {
       public static void main (String[] args) {  
         // keep this function call here     
         Scanner s = new Scanner(System.in);
-        System.out.print(LargestPair(s.nextLine())); 
+        System.out.print(LargestPair(s.nextInt())); 
+        s.close();
       }
     
 }

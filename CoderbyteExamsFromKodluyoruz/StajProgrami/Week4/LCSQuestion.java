@@ -9,6 +9,8 @@ Have the function LCS(strArr) take the strArr parameter being passed which will 
 
 package CoderbyteExamsFromKodluyoruz.StajProgrami.Week4;
 
+import java.util.Scanner;
+
 public class LCSQuestion {
 
     public static String LCS(String[] strArr) {
@@ -53,6 +55,7 @@ public class LCSQuestion {
         // keep this function call here     
         Scanner s = new Scanner(System.in);
         System.out.print(LCS(s.nextLine())); 
+        s.close();
       }
     
 }
