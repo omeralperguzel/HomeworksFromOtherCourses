@@ -23,6 +23,7 @@ public class HavaSicakliginaGoreEtkinlikOnerme {
         else{
             System.out.println("Yüzmeye gidebilirsiniz.");
         }
+        girdi.close();
     }
     
 }
