@@ -3,7 +3,7 @@
 package Hackerrank.JavaBadge;
 
 import java.util.*;
-import java.io.*;
+//import java.io.*;
 
 public class ThreeValueSeriesSum {
 

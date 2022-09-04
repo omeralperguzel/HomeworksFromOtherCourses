@@ -18,6 +18,8 @@ public class PrintfOutputFormatting {
         }
         System.out.println("================================");
 
+        sc.close();
+
 }
     
 }

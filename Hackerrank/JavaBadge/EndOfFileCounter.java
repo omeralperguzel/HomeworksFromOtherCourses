@@ -8,11 +8,11 @@ Hint: Java's Scanner.hasNext() method is helpful for this problem.
 
 package Hackerrank.JavaBadge;
 
-import java.io.*;
+//import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+//import java.text.*;
+//import java.math.*;
+//import java.util.regex.*;
 
 public class EndOfFileCounter {
     
@@ -24,6 +24,8 @@ public class EndOfFileCounter {
             System.out.printf("%d %s\n",counter, in.nextLine());
             counter++;
        }
+       in.close();
+    
     }
     
 }
