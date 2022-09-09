@@ -1,3 +1,5 @@
+//ANSWER ON CODERBYTE SOLUTION
+
 package CoderbyteExamsFromKodluyoruz.StajProgrami.Week5;
 
 import java.util.*;
@@ -18,7 +20,7 @@ public class StringReductionExpected {
             }
 
             if (str.charAt(i) != str.charAt(i + 1)) {
-                result += String.valueOf(reduct(str.charAt(i), str.charAt(i + 1)));
+                result += String.valueOf(Reduct(str.charAt(i), str.charAt(i + 1)));
                 if (i < str.length() - 1) {
                     i += 1;
                     result += str.substring(i + 1);
@@ -32,7 +34,7 @@ public class StringReductionExpected {
         return String.valueOf(str.length());
     }
 
-    public static char reduct(char x, char y) {
+    public static char Reduct(char x, char y) {
         if (x == 'b' && y == 'c') {
             return 'a';
         } 
