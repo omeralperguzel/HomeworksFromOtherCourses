@@ -1,5 +1,5 @@
 # HomeworksFromOtherCourses
-Repository for homeworks or practices of the courses I took. This repository includes stuff from 
+Repository for homeworks or practices of the courses I took. This repository includes stuff from: 
 * Coderbyte Java exams 
 * Hackerrank Java, Python, 30 Days of Code (Java), 10 Days of JavaScript
 * Kodluyoruz Java101 practices and homeworks
