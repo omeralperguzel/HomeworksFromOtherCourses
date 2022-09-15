@@ -36,6 +36,7 @@ public class StringReductionDifTake2 {
     // keep this function call here     
     Scanner s = new Scanner(System.in);
     System.out.print(StringReduction(s.nextLine())); 
+    s.close();
   }
     
 }
