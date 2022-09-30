@@ -6,13 +6,15 @@ public class IkiBoyutluDizilerleBHarfiYazma1 {
         
         String[][] letter = new String[7][4];
 
+        //i dikey j yatay
+
         for (int i = 0; i < letter.length; i++) {
             for (int j = 0; j < letter[i].length; j++) {
-                if (i == 0 || i == 6) {
+                /*if (i == 0 || i == 6) {
                     letter[i][j] = " * ";
-                } 
-                else if (j == 0 || j == 3) {
-                    if (i != 3){
+                }*/ 
+                if (j == 0 || j == 3) {
+                    if (i != 0 || i != 3 || i != 6){
                         letter[i][j] = " * ";
                     }
                     else{
@@ -24,7 +26,7 @@ public class IkiBoyutluDizilerleBHarfiYazma1 {
                 }
             }
             for (int j = 0; j < letter[i].length-1; j++) {
-                if (i == 3) {
+                if (i == 0 || i == 3 || i == 6) {
                     letter[i][j] = " * ";
                 }
             }
