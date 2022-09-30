@@ -14,7 +14,7 @@ public class IkiBoyutluDizilerleBHarfiYazma1 {
                     letter[i][j] = " * ";
                 }*/ 
                 if (j == 0 || j == 3) {
-                    if (i != 0 || i != 3 || i != 6){
+                    if (i != 0 && i != 3 && i != 6){
                         letter[i][j] = " * ";
                     }
                     else{
