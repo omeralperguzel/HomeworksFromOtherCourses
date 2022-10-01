@@ -26,7 +26,20 @@ public class PalindromikKelimeleriBulanProgram1 {
         return true;
     }*/
 
-    static boolean isPalindrome2(String str) {
+    //I guess it's a different solution for it.
+    static String isPalindrome2(String str) {
+        String reverse = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse += str.charAt(i);
+        }
+
+        if (str.equals(reverse))
+            return "Bu kelime palindromik bir kelimedir.";
+        else
+            return "Bu kelime palindromik bir kelime değildir.";
+    }
+
+    /*static boolean isPalindrome2(String str) {
         String reverse = "";
         for (int i = str.length() - 1; i >= 0; i--) {
             reverse += str.charAt(i);
@@ -36,7 +49,7 @@ public class PalindromikKelimeleriBulanProgram1 {
             return true;
         else
             return false;
-    }
+    }*/
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
